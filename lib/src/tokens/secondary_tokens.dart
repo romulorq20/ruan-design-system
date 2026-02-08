@@ -33,21 +33,21 @@ abstract final class SecondaryTokens {
 
   static List<BoxShadow> get shadowSm => [
         BoxShadow(
-          color: PrimaryTokens.neutral900.withValues(alpha: 0.05),
+          color: PrimaryTokens.neutral900.withOpacity(0.05),
           blurRadius: 2,
           offset: const Offset(0, 1),
         ),
       ];
   static List<BoxShadow> get shadowMd => [
         BoxShadow(
-          color: PrimaryTokens.neutral900.withValues(alpha: 0.08),
+          color: PrimaryTokens.neutral900.withOpacity(0.08),
           blurRadius: 4,
           offset: const Offset(0, 2),
         ),
       ];
   static List<BoxShadow> get shadowLg => [
         BoxShadow(
-          color: PrimaryTokens.neutral900.withValues(alpha: 0.12),
+          color: PrimaryTokens.neutral900.withOpacity(0.12),
           blurRadius: 8,
           offset: const Offset(0, 4),
         ),
