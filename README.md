@@ -519,6 +519,17 @@ cd example
 flutter pub get
 flutter run
 ```
+---
+
+## Demonstração
+
+Screenshots do app:
+
+| Dashboard | Detalhes da transação |
+|-----------|------------------------|
+| ![Dashboard](screenshot/tela1.png) | ![Detalhes](screenshot/tela2.png) |
+
+---
 
 ## Licença
 
